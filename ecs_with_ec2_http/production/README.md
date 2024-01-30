@@ -1,0 +1,1 @@
+See `stage/README.md` for configuration instructions.
