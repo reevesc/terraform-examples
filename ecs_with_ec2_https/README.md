@@ -1,9 +1,11 @@
-# ECS with EC2
+# ECS with EC2 (HTTPS Support)
 This is an example Terraform configuration that sets up a functional ECS Cluster on EC2 in AWS, with additional support for multiple environments.
+
+Note that this configuration is designed to support HTTPS. If you only need support for HTTP, see the ECS with EC2 HTTP example in this repo.
 
 This project is intended to be as close to "plug and play" as possible, but will likely require some basic changes to get it up and running in your specific environment. Please keep this in mind and feel free to fork the repo to give yourself a clean space to work in.
 
-Please note that this example does require some working knowledge of Terraform.
+This example does require some working knowledge of Terraform.
 
 ## Initial Requirements
 The following is a list of requirements you will need to get this infrastructure up and running.
